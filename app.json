@@ -79,6 +79,8 @@
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
+    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
+  }, {
     "url": "https://github.com/SayanthD/aria2-heroku"
   }, {
     "url": "heroku/python"
