@@ -33,17 +33,17 @@ class Config:
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "./DOWNLOADS")
     # Telegram maximum file upload size
-    MAX_FILE_SIZE = int(get_config("MAX_FILE_SIZE", 50000000))
+    MAX_FILE_SIZE = int(get_config("MAX_FILE_SIZE", 2097152000))
     TG_MAX_FILE_SIZE = int(get_config("TG_MAX_FILE_SIZE", 2097152000))
     FREE_USER_MAX_FILE_SIZE = int(
-        get_config("FREE_USER_MAX_FILE_SIZE", 50000000)
+        get_config("FREE_USER_MAX_FILE_SIZE", 2097152000)
     )
     # chunk size that should be used with requests
     CHUNK_SIZE = int(get_config("CHUNK_SIZE", 128))
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = get_config(
         "DEF_THUMB_NAIL_VID_S",
-        "https://telegra.ph/file/8b973b270f4f380a427b1.png"
+        "https://telegra.ph/SK4S-08-30"
     )
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = int(get_config(
